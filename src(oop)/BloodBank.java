@@ -33,7 +33,7 @@ public class BloodBank extends User {
             donorList[donorCount++] = d;
 
             try {
-                FileWriter fw = new FileWriter("donors.txt", true); // FIXED
+                FileWriter fw = new FileWriter("donors.txt", true); 
 
                 fw.write(d.getDonorId() + "," + d.getName() + "\n");
 
