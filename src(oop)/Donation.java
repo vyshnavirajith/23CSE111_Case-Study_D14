@@ -24,7 +24,7 @@ public class Donation {
         System.out.println("Donation Recorded Successfully!");
 
         try {
-            FileWriter fw = new FileWriter("donations.txt", true); // FIXED
+            FileWriter fw = new FileWriter("donations.txt", true); 
 
             fw.write(donor.getName() + "," + bloodGroup + ","
                     + quantity + "," + donationDate + "\n");
